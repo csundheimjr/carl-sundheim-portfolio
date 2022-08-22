@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  padding-top: 25px;
+  background-color: #ffffff;
+  margin-top: 25px;
+}
+header {
+  display: flex;
+  position: absolute;
+  border-width: 1px;
+  color: #dbd8e3;
+  border-color: #5c5470;
+  border-style: solid;
+  padding: 1.5%;
+  background: #5c5470;
+  background-image: linear-gradient(to right, #2a2438, #5c5470);
+  justify-content: space-between;
+  height: inherit;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-size: 150%;
+  color: #dbd8e3;
+  font-weight: bolder;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: -webkit-fill-available;
+}
+h1 {
+  display: flex;
+  font-size: 300%;
+  font-weight: bolder;
+  align-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main {
+  margin-top: 44px;
+}
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 185%;
+  border-width: 1px;
+  color: #dbd8e3;
+  border-color: #5c5470;
+  border-style: solid;
+  padding: 1%;
+  background: rgb(203 203 203);
+  background-image: linear-gradient(to right, #2a2438, #5c5470);
+}
+#navbar {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding-left: 15px;
+  color: #dbd8e3;
+  text-decoration: none;
+}
+.profile-pic {
+  radius: 22%;
+  width: 22%;
+  margin: 25px;
+  border: rgba(20, 20, 20, 0.808);
+  border-radius: 22%;
+  border-width: 3px;
+  border-style: solid;
+}
+.p1 {
+  display: flex;
+  margin: 25px;
+  color: rgba(20, 20, 20, 0.808);
+  font-size: 200%;
+  font-weight: bold;
+}
+.github {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+.github img {
+  display: flex;
+  max-width: 200px;
+  max-height: 200px;
+}
+.fff {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+.fff img {
+  display: flex;
+  max-width: 200px;
+  max-height: 200px;
+}
+.links img {
+  display: flex;
+  padding: 25px;
+  max-width: 150px;
+  max-height: 150px;
+}
+.links {
+  display: flex;
+  margin: 30px;
+  flex-direction: row;
+}
+.work img {
+  display: flex;
+  max-width: 300px;
+  max-height: 300px;
+}
+.work {
+  display: flex;
+  justify-content: left space-around;
+  flex-direction: row;
+  margin: 35px;
+  flex-wrap: wrap;
+}
